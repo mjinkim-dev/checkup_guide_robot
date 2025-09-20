@@ -50,16 +50,19 @@ Design Notes:
 | Fail-Safe Navigation   | Predictive dead zone handling |
 
 
-##System Block Diagram (in Korean)
+## System Block Diagram (in Korean)
 ![Diagram](images/system_block_diagram.png)
 
 ## Example Logics
 1. AMR + UWB Wristband
   ![Diagram](images/amr_uwb_logic.png)
-2. Obstacle Avoidance
+
+3. Obstacle Avoidance
    ![Diagram](images/obstacle_avoidance_logic.png)
-3. Fail-safe
+   
+5. Fail-safe
    ![Diagram](images/fail-safe_logic.png)
+   
 ---
 
 ## 건강검진 안내 자율주행 로봇
