@@ -14,7 +14,7 @@ It is currently at the system planning and design stage, with simulation impleme
 
 ## Hardware and Design
 ![Robot Layout](images/amr_layout.png)
-
+![Wrist Band Layout](images/wristband_layout.png)
 - MCU: Dual structure (SBC + STM32 or Jetson + MCU)
 - Sensors:
   - 2D LiDAR (RPLIDAR S1)
@@ -49,6 +49,17 @@ Design Notes:
 | Wristband Tracking     | UWB + Kalman Filter           |
 | Fail-Safe Navigation   | Predictive dead zone handling |
 
+
+##System Block Diagram (in Korean)
+![Diagram](images/system_block_diagram.png)
+
+## Example Logics
+1. AMR + UWB Wristband
+  ![Diagram](images/amr_uwb_logic.png)
+2. Obstacle Avoidance
+   ![Diagram](images/obstacle_avoidance_logic.png)
+3. Fail-safe
+   ![Diagram](images/fail-safe_logic.png)
 ---
 
 ## 건강검진 안내 자율주행 로봇
