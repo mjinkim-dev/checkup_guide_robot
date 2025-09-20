@@ -13,6 +13,7 @@ It is currently at the system planning and design stage, with simulation impleme
   - Sensor fusion-based obstacle avoidance
 
 ## Hardware and Design
+![Robot Layout](images/amr_layout.png)
 
 - MCU: Dual structure (SBC + STM32 or Jetson + MCU)
 - Sensors:
